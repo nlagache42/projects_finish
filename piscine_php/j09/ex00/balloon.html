@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Balloon</title>
+		<style>
+		.balloon{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			border-radius: 100%;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="balloon" id="balloon1"></div>
+		<script type="text/javascript">
+			var test = document.getElementById('balloon1');
+			test.addEventListener("click", fat, false);
+			test.addEventListener("mouseout", small, false);
+			function fat ()
+			{
+				var toto = document.getElementById('balloon1');
+				var add = toto.style.width;
+				toto.style.width = toto.offsetWidth+10+'px';
+			    toto.style.height = toto.offsetHeight+10+'px';
+				if (toto.style.backgroundColor == '' || toto.style.backgroundColor == 'red')
+					toto.style.backgroundColor = 'green';
+				else if (toto.style.backgroundColor == 'green')
+					toto.style.backgroundColor = 'blue';
+				else
+					toto.style.backgroundColor = 'red';
+				if (toto.style.width > '420px')
+				{
+					toto.style.width = '200px';
+					toto.style.height = '200px';
+				}
+			}
+			function small ()
+			{
+				var toto = document.getElementById('balloon1');
+				var add = toto.style;
+				if (toto.style.backgroundColor == '' || toto.style.backgroundColor == 'red')
+					toto.style.backgroundColor = 'blue';
+				else if (toto.style.backgroundColor == 'blue')
+					toto.style.backgroundColor = 'green';
+				else
+					toto.style.backgroundColor = 'red';
+				if (toto.style.width > '200px')
+				{
+					toto.style.width = toto.offsetWidth-5+'px';
+			 		toto.style.height = toto.offsetHeight-5+'px';
+				}
+			}
+		</script>
+	</body>
+</html>

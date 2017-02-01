@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calc</title>
+	</head>
+<body>
+	<input type="text" id="left">
+	<select id="sign">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+		<option value="%">%</option>
+	</select>
+	<input type="text" id="right">
+	<input type="submit" value="Try me!" id="OK">
+	<script type="text/javascript">
+	setInterval(function () {alert("Please, use me...")}, 30000);
+	var launch = document.getElementById("OK");
+	launch.addEventListener("click", parse);
+	function isvalid(str)
+	{
+		return (str.length === 0 || !str.trim());
+	}
+	function count(val1, val2)
+	{
+		var sign = document.getElementById("sign").value;
+		if (sign == '+')
+		{
+			alert (parseInt(val1) + parseInt(val2));
+			console.log(parseInt(val1) + parseInt(val2));
+		}
+		else if (sign == '-')
+		{
+			alert (parseInt(val1) - parseInt(val2));
+			console.log(parseInt(val1) - parseInt(val2));
+		}
+		else if (sign == '*')
+		{
+			alert (parseInt(val1) * parseInt(val2));
+			console.log(parseInt(val1) * parseInt(val2));
+		}
+		else if (sign == '/')
+		{
+			if (val2 == '0')
+			{
+				alert ('It’s over 9000!');
+				console.log("It’s over 9000");
+			}
+			else
+			{
+				alert (parseInt(val1) / parseInt(val2));
+				console.log(parseInt(val1) / parseInt(val2));
+			}
+		}
+		else if (sign == '%')
+		{
+			if (val2 == '0')
+			{
+				alert ('It’s over 9000!');
+				console.log("It’s over 9000");
+			}
+			else
+			{
+				alert (parseInt(val1) % parseInt(val2));
+				console.log (parseInt(val1) % parseInt(val2));
+			}
+		}
+	}
+	function parse ()
+	{
+		var val1 = document.getElementById("left").value;
+		var val2 = document.getElementById("right").value;
+		if (!isvalid(val1) && !isvalid(val2))
+		{
+			var exp = new RegExp(/^([0-9]*)$/);
+			if (exp.test(val1) && exp.test(val2))
+				count(val1, val2);
+			else
+				alert ('Error :(');
+		}
+		else
+			alert ('Error :(');
+	}
+	</script>
+</body>
+</html>
