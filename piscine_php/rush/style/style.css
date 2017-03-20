@@ -1,0 +1,159 @@
+*
+{
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Palatino;
+}
+body
+{
+	height: 100%;
+	text-align: center;
+	background: url("http://www.atlantico.fr/sites/atlantico.fr/files/styles/une/public/images/2014/04/bullesbis.jpg") fixed no-repeat;
+	background-color: #581845;
+	background-size: 100% 100%;
+}
+
+.connect_user
+{
+	padding-top: 30px;
+}
+
+.connect_user h2
+{
+	color: blue;
+}
+
+#corp
+{
+	height: 100%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.article
+{
+	overflow: auto;
+	margin-left: 5%;
+	padding: 10px;
+	width: 90%;
+	min-height: 10%;
+	display: block;
+	background-color: #FFC300;
+	margin-top: 5%;
+	border-radius: 10px;
+	opacity: 0.85;
+}
+
+.article img
+{
+	float: left;
+	height: 100%;
+	width: auto;
+}
+
+.total
+{
+	color: red;
+}
+
+.price
+{
+	font-size: 1.2vw;
+	color: #C70039;
+}
+.name
+{
+	font-size: 2vw;
+	color:#FF5733;
+}
+
+.desc
+{
+	color:#581845;
+}
+
+.title
+{
+	font-style: gras;
+	font-size: 3em;
+	font-family: Chalkduster;
+}
+
+.menu li
+{
+	color: white;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.menu li a
+{
+	color:white;
+	font-size: 1.2em;
+	padding: 10px 60px;
+	background-color: #C70039;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.menu li a:visited
+{
+	color: inherit;
+}
+
+.menu li a:hover
+{
+	background-color: #39D911;
+}
+
+.conditions p
+{
+	text-align: justify-all;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.conditions .title_condition
+{
+	padding-top: 30px;
+	color: red;
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
+.conditions .N_article
+{
+	padding-top: 30px;
+	color: blue;
+}
+
+.admin
+{
+	padding-top: 30px;
+	color: blue;
+}
+
+.compte
+{
+	padding-top: 30px;
+	color: blue;
+}
+
+.panier
+{
+	padding-top: 30px;	
+}
+
+.footer
+{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+
+.footer h5
+{
+	color: white;
+	padding: 10px 20px;
+}
