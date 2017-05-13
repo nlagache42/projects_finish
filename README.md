@@ -2,7 +2,6 @@
 All 42 school projects
 
 COREWAR
-
 Le Corewar est un jeu très particulier. Il consiste à rassembler autour d’une "machine
 virtuelle" des "joueurs", lesquels vont y charger des "champions" qui vont se
 battre à l’aide de "processus", dans le but, entre autres, de faire en sorte qu’on dise
