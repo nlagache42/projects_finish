@@ -1,7 +1,7 @@
 # projects_finish
 All 42 school projects
 
-COREWAR
+COREWAR :
 Le Corewar est un jeu très particulier. Il consiste à rassembler autour d’une "machine
 virtuelle" des "joueurs", lesquels vont y charger des "champions" qui vont se
 battre à l’aide de "processus", dans le but, entre autres, de faire en sorte qu’on dise
@@ -13,8 +13,7 @@ des instructions qui leur font du mal, etc...
 • Le jeu se termine quand plus aucun processus n’est en vie. À ce moment là, le
 gagnant est le dernier joueur à avoir été rapporté comme étant "en vie".
 
-
-FDF
+FDF :
 Vous decouvrirez dans ce projet les bases de la programmation graphique, et en particulier,
 le placement de points dans l’espace, comment les relier avec des segments et
 surtout comment observer la scène depuis un certain point de vue.
@@ -25,7 +24,7 @@ souris et l’“expose”. Ce sera pour vous l’occasion de vous initier à la
 “evenementielle”. N’oubliez pas de regarder les vidéos sur l’e-learning !
 
 
-FILLIT
+FILLIT :
 Fillit ne consiste pas à recoder Tetris, mais reste une variante du jeu dans l’esprit.
 Votre programme prendra en paramètre un fichier décrivant une liste de Tetriminos
 qu’il devra ensuite agencer entre eux pour former le plus petit carré possible. Le but est
@@ -35,7 +34,7 @@ Vous devrez donc bien réflechir à vos structures de données et à votre algor
 résolution pour que votre programme réponde rapidement.
 
 
-FRACTOL
+FRACTOL :
 Ce projet consiste à créer un petit logiciel d’exploration fractale. Commencez donc
 par voir ce qu’est une fractale.
 Les contraintes sont les suivantes :
@@ -60,11 +59,11 @@ sur les dump, ou bien dans sa version native pour MacOS X.
 • L’utilisation des images de la minilibX est fortement conseillée.
 
 
-FT_PRINTF
+FT_PRINTF :
 Recoder la fonction printf existante
 
 
-GET_NEXT_LINE
+GET_NEXT_LINE :
 Ce projet va non seulement vous permettre d’ajouter une fonction très pratique à
 votre collection, mais vous permettra également d’aborder un nouvel élément surprenant
 de la programmation en C : les variables statiques.
@@ -76,7 +75,7 @@ mais aussi en découvrant que l’état initial d’un variable dans une fonctio
 d’un appel à l’autre de cette fonction...
 
 
-LEM_IN
+LEM_IN :
 On monte une fourmilière avec tout son lot de tunnels et de salles, on met des
 fourmis d’un côté et on regarde comment elles trouvent la sortie.
 Comment on monte une fourmilière ? On a besoin de tubes et de boîtes.
@@ -90,16 +89,16 @@ en faire une version high-tech.
 Le but du projet sera donc de faire un simulateur de "Hex".
 
 
-LIBFT
+LIBFT :
 Réalisation d'une bibliotheque de multiples fonctions, utilisable par la suite dans divers projets.
 
 
-PISCINE_PHP
+PISCINE_PHP :
 Divers exercices de la piscine PHP, permettant de se familiariser avec le langage PHP/MySQL/HTML/CSS
 Sous dossier RUSH : Réalisation d'un site web e-commerce avec base de donnée SQL, interface utilisateur, panier etc...
 
 
-PUSH_SWAP
+PUSH_SWAP :
 Le projet Push_swap est un projet d’algo simple et efficace : il faut trier. Vous avez
 à votre disposition un ensemble d’entiers, deux piles, et un ensemble d’instructions pour
 manipuler les piles.
@@ -112,7 +111,7 @@ petit programme dans le langage des instructions de Push_swap qui trie les entie
 passés en paramètre.
 
 
-WOLF3D
+WOLF3D :
 Les objectifs de ce projet comprennent toujours les objectifs communs à tous les premiers
 projets ayant lieu avant le stage : rigueur, pratique du C, pratique d’algos classiques,
 recherche d’infos, exploitation de documentations, etc.
